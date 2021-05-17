@@ -2,7 +2,8 @@
 
 ## Fetch Simpsons quotes
 
-Use the [Simpsons Quotes API](https://thesimpsonsquoteapi.glitch.me)
+Uses the [Simpsons Quotes API](https://thesimpsonsquoteapi.glitch.me) to search, fetch and display quotes. 
+Built using React functional componenets and Hooks 
 
 - create `src/services/simpsonsApi.js`
   - create a `getQuote` function that fetches a simpson quote
