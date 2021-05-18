@@ -3,6 +3,6 @@ import style from "../app/app.css"
 
 export default function Logo() {
     return (
-        <img className={style.logo} src={'http://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png'} alt='Simpsons Logo' />
+        <img className={style.logo} src={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/The_Simpsons_Logo.svg/1280px-The_Simpsons_Logo.svg.png'} alt='Simpsons Logo' />
     )
 }
