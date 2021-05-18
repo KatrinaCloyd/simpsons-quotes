@@ -1,5 +1,6 @@
 import React from 'react'
 import style from '../app/app.css';
+import PropTypes from 'prop-types';
 
 export default function Quote({ name, image, quote }) {
     return (
@@ -14,3 +15,10 @@ export default function Quote({ name, image, quote }) {
         </ div>
     )
 }
+
+Quote.propTypes = {
+    name: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    quote: PropTypes.string.isRequired,
+}
+
